@@ -1,0 +1,127 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "properties": {
+        "ADD_STYLE_NAME": {
+            "type": "string"
+        },
+        "AVERAGE_WIDTH": {
+            "type": "number"
+        },
+        "AVG_LOWERCASE_WIDTH": {
+            "type": "number"
+        },
+        "AVG_UPPERCASE_WIDTH": {
+            "type": "number"
+        },
+        "CAP_HEIGHT": {
+            "type": "number"
+        },
+        "COPYRIGHT": {
+            "type": "string"
+        },
+        "DEFAULT_CHAR": {
+            "type": "number"
+        },
+        "FACE_NAME": {
+            "type": "string"
+        },
+        "FAMILY_NAME": {
+            "type": "string"
+        },
+        "FIGURE_WIDTH": {
+            "type": "number"
+        },
+        "FONT_ASCENT": {
+            "type": "number"
+        },
+        "FONT_DESCENT": {
+            "type": "number"
+        },
+        "FONT_NAME": {
+            "type": "string"
+        },
+        "FONT_VERSION": {
+            "type": "string"
+        },
+        "FOUNDRY": {
+            "type": "string"
+        },
+        "NORM_SPACE": {
+            "type": "number"
+        },
+        "NOTICE": {
+            "type": "string"
+        },
+        "PIXEL_SIZE": {
+            "type": "number"
+        },
+        "POINT_SIZE": {
+            "type": "number"
+        },
+        "RAW_ASCENT": {
+            "type": "number"
+        },
+        "RAW_DESCENT": {
+            "type": "number"
+        },
+        "RELATIVE_SETWIDTH": {
+            "type": "number"
+        },
+        "RELATIVE_WEIGHT": {
+            "type": "number"
+        },
+        "RESOLUTION_X": {
+            "type": "number"
+        },
+        "RESOLUTION_Y": {
+            "type": "number"
+        },
+        "SETWIDTH_NAME": {
+            "type": "string"
+        },
+        "SLANT": {
+            "type": "string"
+        },
+        "SPACING": {
+            "type": "string"
+        },
+        "SUBSCRIPT_SIZE": {
+            "type": "number"
+        },
+        "SUBSCRIPT_X": {
+            "type": "number"
+        },
+        "SUBSCRIPT_Y": {
+            "type": "number"
+        },
+        "SUPERSCRIPT_SIZE": {
+            "type": "number"
+        },
+        "SUPERSCRIPT_X": {
+            "type": "number"
+        },
+        "SUPERSCRIPT_Y": {
+            "type": "number"
+        },
+        "UNDERLINE_POSITION": {
+            "type": "number"
+        },
+        "UNDERLINE_THICKNESS": {
+            "type": "number"
+        },
+        "WEIGHT_NAME": {
+            "type": "string"
+        },
+        "X_HEIGHT": {
+            "type": "number"
+        },
+        "_OTF_FONTFILE": {
+            "type": "string"
+        },
+        "_OTF_PSNAME": {
+            "type": "string"
+        }
+    },
+    "type": "object"
+}
+

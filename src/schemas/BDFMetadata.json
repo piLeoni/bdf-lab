@@ -1,0 +1,74 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "properties": {
+        "CHARSET_COLLECTIONS": {
+            "type": "string"
+        },
+        "CHARSET_ENCODING": {
+            "type": "string"
+        },
+        "CHARSET_REGISTRY": {
+            "type": "string"
+        },
+        "COMMENT": {
+            "type": "string"
+        },
+        "CONTENTVERSION": {
+            "type": "number"
+        },
+        "FONT": {
+            "type": "string"
+        },
+        "FONTBOUNDINGBOX": {
+            "items": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "number"
+                }
+            ],
+            "maxItems": 4,
+            "minItems": 4,
+            "type": "array"
+        },
+        "FONTNAME_REGISTRY": {
+            "type": "string"
+        },
+        "METRICSET": {
+            "enum": [
+                0,
+                1,
+                2
+            ],
+            "type": "number"
+        },
+        "SIZE": {
+            "items": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "number"
+                }
+            ],
+            "maxItems": 3,
+            "minItems": 3,
+            "type": "array"
+        },
+        "STARTFONT": {
+            "type": "string"
+        }
+    },
+    "type": "object"
+}
+

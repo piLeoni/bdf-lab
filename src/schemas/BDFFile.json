@@ -1,0 +1,334 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "BDFCharacter": {
+            "properties": {
+                "BBX": {
+                    "items": [
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ],
+                    "maxItems": 4,
+                    "minItems": 4,
+                    "type": "array"
+                },
+                "BITMAP": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                },
+                "DWIDTH": {
+                    "items": [
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ],
+                    "maxItems": 2,
+                    "minItems": 2,
+                    "type": "array"
+                },
+                "DWIDTH1": {
+                    "items": [
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ],
+                    "maxItems": 2,
+                    "minItems": 2,
+                    "type": "array"
+                },
+                "ENCODING": {
+                    "type": "number"
+                },
+                "ENDCHAR": {
+                    "type": "string"
+                },
+                "STARTCHAR": {
+                    "type": "string"
+                },
+                "SWIDTH": {
+                    "items": [
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ],
+                    "maxItems": 2,
+                    "minItems": 2,
+                    "type": "array"
+                },
+                "SWIDTH1": {
+                    "items": [
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ],
+                    "maxItems": 2,
+                    "minItems": 2,
+                    "type": "array"
+                },
+                "VVECTOR": {
+                    "items": [
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ],
+                    "maxItems": 2,
+                    "minItems": 2,
+                    "type": "array"
+                }
+            },
+            "type": "object"
+        },
+        "BDFMetadata": {
+            "properties": {
+                "CHARSET_COLLECTIONS": {
+                    "type": "string"
+                },
+                "CHARSET_ENCODING": {
+                    "type": "string"
+                },
+                "CHARSET_REGISTRY": {
+                    "type": "string"
+                },
+                "COMMENT": {
+                    "type": "string"
+                },
+                "CONTENTVERSION": {
+                    "type": "number"
+                },
+                "FONT": {
+                    "type": "string"
+                },
+                "FONTBOUNDINGBOX": {
+                    "items": [
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ],
+                    "maxItems": 4,
+                    "minItems": 4,
+                    "type": "array"
+                },
+                "FONTNAME_REGISTRY": {
+                    "type": "string"
+                },
+                "METRICSET": {
+                    "enum": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "type": "number"
+                },
+                "SIZE": {
+                    "items": [
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        },
+                        {
+                            "type": "number"
+                        }
+                    ],
+                    "maxItems": 3,
+                    "minItems": 3,
+                    "type": "array"
+                },
+                "STARTFONT": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "BDFProperties": {
+            "properties": {
+                "ADD_STYLE_NAME": {
+                    "type": "string"
+                },
+                "AVERAGE_WIDTH": {
+                    "type": "number"
+                },
+                "AVG_LOWERCASE_WIDTH": {
+                    "type": "number"
+                },
+                "AVG_UPPERCASE_WIDTH": {
+                    "type": "number"
+                },
+                "CAP_HEIGHT": {
+                    "type": "number"
+                },
+                "COPYRIGHT": {
+                    "type": "string"
+                },
+                "DEFAULT_CHAR": {
+                    "type": "number"
+                },
+                "FACE_NAME": {
+                    "type": "string"
+                },
+                "FAMILY_NAME": {
+                    "type": "string"
+                },
+                "FIGURE_WIDTH": {
+                    "type": "number"
+                },
+                "FONT_ASCENT": {
+                    "type": "number"
+                },
+                "FONT_DESCENT": {
+                    "type": "number"
+                },
+                "FONT_NAME": {
+                    "type": "string"
+                },
+                "FONT_VERSION": {
+                    "type": "string"
+                },
+                "FOUNDRY": {
+                    "type": "string"
+                },
+                "NORM_SPACE": {
+                    "type": "number"
+                },
+                "NOTICE": {
+                    "type": "string"
+                },
+                "PIXEL_SIZE": {
+                    "type": "number"
+                },
+                "POINT_SIZE": {
+                    "type": "number"
+                },
+                "RAW_ASCENT": {
+                    "type": "number"
+                },
+                "RAW_DESCENT": {
+                    "type": "number"
+                },
+                "RELATIVE_SETWIDTH": {
+                    "type": "number"
+                },
+                "RELATIVE_WEIGHT": {
+                    "type": "number"
+                },
+                "RESOLUTION_X": {
+                    "type": "number"
+                },
+                "RESOLUTION_Y": {
+                    "type": "number"
+                },
+                "SETWIDTH_NAME": {
+                    "type": "string"
+                },
+                "SLANT": {
+                    "type": "string"
+                },
+                "SPACING": {
+                    "type": "string"
+                },
+                "SUBSCRIPT_SIZE": {
+                    "type": "number"
+                },
+                "SUBSCRIPT_X": {
+                    "type": "number"
+                },
+                "SUBSCRIPT_Y": {
+                    "type": "number"
+                },
+                "SUPERSCRIPT_SIZE": {
+                    "type": "number"
+                },
+                "SUPERSCRIPT_X": {
+                    "type": "number"
+                },
+                "SUPERSCRIPT_Y": {
+                    "type": "number"
+                },
+                "UNDERLINE_POSITION": {
+                    "type": "number"
+                },
+                "UNDERLINE_THICKNESS": {
+                    "type": "number"
+                },
+                "WEIGHT_NAME": {
+                    "type": "string"
+                },
+                "X_HEIGHT": {
+                    "type": "number"
+                },
+                "_OTF_FONTFILE": {
+                    "type": "string"
+                },
+                "_OTF_PSNAME": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    },
+    "properties": {
+        "CHARS": {
+            "type": "number"
+        },
+        "ENDFONT": {
+            "type": "string"
+        },
+        "ENDPROPERTIES": {
+            "type": "string"
+        },
+        "STARTPROPERTIES": {
+            "type": "string"
+        },
+        "characters": {
+            "items": {
+                "$ref": "#/definitions/BDFCharacter"
+            },
+            "type": "array"
+        },
+        "metadata": {
+            "$ref": "#/definitions/BDFMetadata"
+        },
+        "properties": {
+            "$ref": "#/definitions/BDFProperties"
+        }
+    },
+    "type": "object"
+}
+
