@@ -79,7 +79,7 @@ interface BDFFile {
     [key: string]: any;
 }
 
-declare class Parser {
+declare class BDFParser {
     _outputFile: BDFFile;
     _parseCharMode: boolean;
     _parseCharBitmapMode: boolean;
@@ -98,4 +98,4 @@ declare class Parser {
     _parseChar: (line: string) => void;
 }
 
-export { Parser };
+export { BDFParser };
