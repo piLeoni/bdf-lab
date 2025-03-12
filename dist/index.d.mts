@@ -12,6 +12,7 @@ interface BDFMetadata {
     CHARSET_COLLECTIONS?: string;
     [key: string]: any;
 }
+type BDFMetadataKeys = "STARTFONT" | "FONT" | "SIZE" | "FONTBOUNDINGBOX" | "METRICSET" | "CONTENTVERSION" | "CHARSET_REGISTRY" | "CHARSET_ENCODING" | "COMMENT" | "FONTNAME_REGISTRY" | "CHARSET_COLLECTIONS";
 interface BDFProperties {
     CAP_HEIGHT?: number;
     COPYRIGHT?: string;
@@ -55,6 +56,7 @@ interface BDFProperties {
     AVG_UPPERCASE_WIDTH?: number;
     [key: string]: any;
 }
+type BDFPropertiesKeys = "CAP_HEIGHT" | "COPYRIGHT" | "DEFAULT_CHAR" | "FACE_NAME" | "FONT_ASCENT" | "FONT_DESCENT" | "FONT_VERSION" | "FOUNDRY" | "FAMILY_NAME" | "NOTICE" | "POINT_SIZE" | "RESOLUTION_X" | "RESOLUTION_Y" | "SLANT" | "WEIGHT_NAME" | "X_HEIGHT" | "SETWIDTH_NAME" | "ADD_STYLE_NAME" | "PIXEL_SIZE" | "SPACING" | "AVERAGE_WIDTH" | "_OTF_FONTFILE" | "_OTF_PSNAME" | "FONT_NAME" | "UNDERLINE_POSITION" | "UNDERLINE_THICKNESS" | "RAW_ASCENT" | "RAW_DESCENT" | "NORM_SPACE" | "RELATIVE_WEIGHT" | "RELATIVE_SETWIDTH" | "SUPERSCRIPT_X" | "SUPERSCRIPT_Y" | "SUPERSCRIPT_SIZE" | "SUBSCRIPT_X" | "SUBSCRIPT_Y" | "SUBSCRIPT_SIZE" | "FIGURE_WIDTH" | "AVG_LOWERCASE_WIDTH" | "AVG_UPPERCASE_WIDTH";
 interface BDFCharacter {
     STARTCHAR: string;
     ENCODING: number;
@@ -68,6 +70,7 @@ interface BDFCharacter {
     ENDCHAR?: string;
     [key: string]: any;
 }
+type BDFCharacterKeys = "STARTCHAR" | "ENCODING" | "SWIDTH" | "DWIDTH" | "SWIDTH1" | "DWIDTH1" | "BBX" | "VVECTOR" | "BITMAP" | "ENDCHAR";
 interface BDFFile {
     metadata: BDFMetadata;
     properties?: BDFProperties;
@@ -78,6 +81,7 @@ interface BDFFile {
     ENDPROPERTIES?: string;
     [key: string]: any;
 }
+type BDFFileKeys = "metadata" | "properties" | "characters" | "CHARS" | "ENDFONT" | "STARTPROPERTIES" | "ENDPROPERTIES";
 
 declare class BDFParser {
     _outputFile: BDFFile;
@@ -98,4 +102,4 @@ declare class BDFParser {
     _parseChar: (line: string) => void;
 }
 
-export { BDFParser };
+export { type BDFCharacter, type BDFCharacterKeys, type BDFFile, type BDFFileKeys, type BDFMetadata, type BDFMetadataKeys, BDFParser, type BDFProperties, type BDFPropertiesKeys };

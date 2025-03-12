@@ -162,3 +162,13 @@ export type BDFFileKeys =
     "ENDFONT" |
     "STARTPROPERTIES" |
     "ENDPROPERTIES" 
+
+    export type SchemaDefinition<T> = {
+        [K in keyof T]: {
+            type: "string" | "number" | "array";
+            minItems?: number;
+            maxItems?: number;
+            items?: { type: "string" | "number" }[]; // Only relevant for arrays
+        };
+    };
+        
