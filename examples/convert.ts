@@ -1,4 +1,4 @@
-import { BDFParser } from "../src/BDFParser"
+import { BDFParser } from "../src"
 import * as fs from "fs"
 
 const parser = new BDFParser()

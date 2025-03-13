@@ -6,7 +6,10 @@
   "scripts": {
     "build": "tsup src/index.ts --dts --format cjs,esm --minify",
     "start": "node dist/index.js",
-    "example": "ts-node examples/convert.ts"
+    "example": "ts-node examples/convert.ts",
+    "example2": "ts-node examples/generateJSONFont.ts",
+    "example3": "ts-node src/font.ts"
+
   },
   "devDependencies": {
     "@types/node": "^22.13.10",
@@ -14,5 +17,10 @@
     "ts-node": "^10.9.2",
     "tsup": "^8.4.0",
     "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "canvas": "^3.1.0",
+    "fonteditor-core": "^2.4.1",
+    "xmlbuilder2": "^3.1.1"
   }
 }

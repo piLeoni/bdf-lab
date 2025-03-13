@@ -1,0 +1,118 @@
+{
+  "info": {
+    "face": "battery19",
+    "size": 19,
+    "charset": ""
+  },
+  "common": {
+    "lineHeight": 19,
+    "base": 19
+  },
+  "pages": [
+    {
+      "id": 0,
+      "file": "battery19.png"
+    }
+  ],
+  "chars": {
+    "count": 8,
+    "char": [
+      {
+        "id": 48,
+        "x": 0,
+        "y": 0,
+        "width": 8,
+        "height": 19,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 9,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 49,
+        "x": 8,
+        "y": 0,
+        "width": 8,
+        "height": 19,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 9,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 50,
+        "x": 16,
+        "y": 0,
+        "width": 8,
+        "height": 19,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 9,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 51,
+        "x": 0,
+        "y": 19,
+        "width": 8,
+        "height": 19,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 9,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 52,
+        "x": 8,
+        "y": 19,
+        "width": 8,
+        "height": 19,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 9,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 53,
+        "x": 16,
+        "y": 19,
+        "width": 8,
+        "height": 19,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 9,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 54,
+        "x": 0,
+        "y": 38,
+        "width": 8,
+        "height": 19,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 9,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 55,
+        "x": 8,
+        "y": 38,
+        "width": 0,
+        "height": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 9,
+        "page": 0,
+        "chnl": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "info": {
+    "face": "u8g2_percent_circle_25",
+    "size": 16,
+    "charset": ""
+  },
+  "common": {
+    "lineHeight": 0,
+    "base": 0
+  },
+  "pages": [
+    {
+      "id": 0,
+      "file": "u8g2_percent_circle_25.png"
+    }
+  ],
+  "chars": {
+    "count": 9,
+    "char": [
+      {
+        "id": 48,
+        "x": 0,
+        "y": 0,
+        "width": 25,
+        "height": 25,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 25,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 49,
+        "x": 25,
+        "y": 0,
+        "width": 25,
+        "height": 25,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 25,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 50,
+        "x": 50,
+        "y": 0,
+        "width": 25,
+        "height": 25,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 25,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 51,
+        "x": 0,
+        "y": 25,
+        "width": 25,
+        "height": 25,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 25,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 52,
+        "x": 25,
+        "y": 25,
+        "width": 25,
+        "height": 25,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 25,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 53,
+        "x": 50,
+        "y": 25,
+        "width": 25,
+        "height": 25,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 25,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 54,
+        "x": 0,
+        "y": 50,
+        "width": 25,
+        "height": 25,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 25,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 55,
+        "x": 25,
+        "y": 50,
+        "width": 25,
+        "height": 25,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 25,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 56,
+        "x": 50,
+        "y": 50,
+        "width": 25,
+        "height": 25,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 25,
+        "page": 0,
+        "chnl": 0
+      }
+    ]
+  }
+}

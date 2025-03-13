@@ -1,0 +1,34 @@
+{
+  "info": {
+    "face": "f12",
+    "size": 12,
+    "charset": "ISO10646"
+  },
+  "common": {
+    "lineHeight": 12,
+    "base": 10
+  },
+  "pages": [
+    {
+      "id": 0,
+      "file": "f12.png"
+    }
+  ],
+  "chars": {
+    "count": 1,
+    "char": [
+      {
+        "id": 92,
+        "x": 0,
+        "y": 0,
+        "width": 12,
+        "height": 12,
+        "xoffset": 0,
+        "yoffset": -2,
+        "xadvance": 12,
+        "page": 0,
+        "chnl": 0
+      }
+    ]
+  }
+}

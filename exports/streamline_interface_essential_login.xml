@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<font>
+  <info face="streamline_interface_essential_login" size="16" bold="0" italic="0" charset="" unicode="0" stretchH="100" smooth="1" aa="1" padding="0,0,0,0" spacing="1,1"/>
+  <common lineHeight="0" base="0" scaleW="512" scaleH="512" pages="1" packed="0"/>
+  <pages>
+    <page id="0" file="streamline_interface_essential_login.png"/>
+  </pages>
+  <chars count="2">
+    <char id="48" x="0" y="0" width="21" height="21" xoffset="0" yoffset="0" xadvance="21" page="0" chnl="0" letter="0"/>
+    <char id="49" x="21" y="0" width="21" height="21" xoffset="0" yoffset="0" xadvance="21" page="0" chnl="0" letter="1"/>
+  </chars>
+</font>

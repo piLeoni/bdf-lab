@@ -1,0 +1,118 @@
+{
+  "info": {
+    "face": "open_iconic_other_6x",
+    "size": 16,
+    "charset": ""
+  },
+  "common": {
+    "lineHeight": 0,
+    "base": 0
+  },
+  "pages": [
+    {
+      "id": 0,
+      "file": "open_iconic_other_6x.png"
+    }
+  ],
+  "chars": {
+    "count": 8,
+    "char": [
+      {
+        "id": 64,
+        "x": 0,
+        "y": 0,
+        "width": 48,
+        "height": 48,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 48,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 65,
+        "x": 48,
+        "y": 0,
+        "width": 48,
+        "height": 48,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 48,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 66,
+        "x": 96,
+        "y": 0,
+        "width": 48,
+        "height": 48,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 48,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 67,
+        "x": 0,
+        "y": 48,
+        "width": 48,
+        "height": 48,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 48,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 68,
+        "x": 48,
+        "y": 48,
+        "width": 48,
+        "height": 48,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 48,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 69,
+        "x": 96,
+        "y": 48,
+        "width": 48,
+        "height": 48,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 48,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 70,
+        "x": 0,
+        "y": 96,
+        "width": 48,
+        "height": 48,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 48,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 71,
+        "x": 48,
+        "y": 96,
+        "width": 48,
+        "height": 48,
+        "xoffset": 0,
+        "yoffset": 0,
+        "xadvance": 48,
+        "page": 0,
+        "chnl": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "info": {
+    "face": "freedoomr25n",
+    "size": 34,
+    "charset": "ISO10646"
+  },
+  "common": {
+    "lineHeight": 44,
+    "base": 36
+  },
+  "pages": [
+    {
+      "id": 0,
+      "file": "freedoomr25n.png"
+    }
+  ],
+  "chars": {
+    "count": 16,
+    "char": [
+      {
+        "id": 43,
+        "x": 0,
+        "y": 0,
+        "width": 17,
+        "height": 16,
+        "xoffset": 1,
+        "yoffset": 6,
+        "xadvance": 19,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 44,
+        "x": 17,
+        "y": 0,
+        "width": 7,
+        "height": 8,
+        "xoffset": 3,
+        "yoffset": 2,
+        "xadvance": 11,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 45,
+        "x": 24,
+        "y": 0,
+        "width": 9,
+        "height": 2,
+        "xoffset": 1,
+        "yoffset": 13,
+        "xadvance": 11,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 46,
+        "x": 33,
+        "y": 0,
+        "width": 5,
+        "height": 5,
+        "xoffset": 5,
+        "yoffset": 2,
+        "xadvance": 11,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 48,
+        "x": 38,
+        "y": 0,
+        "width": 17,
+        "height": 24,
+        "xoffset": 1,
+        "yoffset": 2,
+        "xadvance": 19,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 49,
+        "x": 0,
+        "y": 24,
+        "width": 6,
+        "height": 24,
+        "xoffset": 7,
+        "yoffset": 2,
+        "xadvance": 19,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 50,
+        "x": 6,
+        "y": 24,
+        "width": 17,
+        "height": 24,
+        "xoffset": 1,
+        "yoffset": 2,
+        "xadvance": 19,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 51,
+        "x": 23,
+        "y": 24,
+        "width": 17,
+        "height": 24,
+        "xoffset": 1,
+        "yoffset": 2,
+        "xadvance": 19,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 52,
+        "x": 40,
+        "y": 24,
+        "width": 17,
+        "height": 24,
+        "xoffset": 1,
+        "yoffset": 2,
+        "xadvance": 19,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 53,
+        "x": 0,
+        "y": 48,
+        "width": 17,
+        "height": 24,
+        "xoffset": 1,
+        "yoffset": 2,
+        "xadvance": 19,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 54,
+        "x": 17,
+        "y": 48,
+        "width": 17,
+        "height": 24,
+        "xoffset": 1,
+        "yoffset": 2,
+        "xadvance": 19,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 55,
+        "x": 34,
+        "y": 48,
+        "width": 16,
+        "height": 24,
+        "xoffset": 2,
+        "yoffset": 2,
+        "xadvance": 19,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 56,
+        "x": 50,
+        "y": 48,
+        "width": 17,
+        "height": 24,
+        "xoffset": 1,
+        "yoffset": 2,
+        "xadvance": 19,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 57,
+        "x": 0,
+        "y": 72,
+        "width": 17,
+        "height": 24,
+        "xoffset": 1,
+        "yoffset": 2,
+        "xadvance": 19,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 58,
+        "x": 17,
+        "y": 72,
+        "width": 5,
+        "height": 16,
+        "xoffset": 5,
+        "yoffset": 2,
+        "xadvance": 11,
+        "page": 0,
+        "chnl": 0
+      },
+      {
+        "id": 59,
+        "x": 22,
+        "y": 72,
+        "width": 7,
+        "height": 16,
+        "xoffset": 3,
+        "yoffset": 2,
+        "xadvance": 11,
+        "page": 0,
+        "chnl": 0
+      }
+    ]
+  }
+}

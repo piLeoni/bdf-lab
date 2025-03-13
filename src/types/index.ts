@@ -172,3 +172,61 @@ export type BDFFileKeys =
         };
     };
         
+
+    /////////////////////
+
+
+    export interface BMFontJSONInfo {
+        face: string;
+        size: number;
+        bold?: number;
+        italic?: number;
+        charset?: string;
+        unicode?: string;
+        stretchH?: number;
+        smooth?: number;
+        aa?: number;
+        padding?: string;
+        spacing?: string;
+        outline?: number;
+      }
+      
+      export interface BMFontJSONCommon {
+        lineHeight: number;
+        base: number;
+        scaleW?: number;
+        scaleH?: number;
+        pages?: number;
+        packed?: number;
+      }
+      
+      export interface BMFontJSONPage {
+        id: number;
+        file: string;
+      }
+      
+      export interface BMFontJSONChar {
+        id: number;
+        x: number;
+        y: number;
+        width: number;
+        height: number;
+        xoffset: number;
+        yoffset: number;
+        xadvance: number;
+        page?: number;
+        chnl?: number;
+      }
+      
+      export interface BMFontJSONChars {
+        count: number;
+        char: BMFontJSONChar[];
+      }
+      
+      export interface BMFontJSON {
+        info: BMFontJSONInfo;
+        common: BMFontJSONCommon;
+        pages: BMFontJSONPage[];
+        chars: BMFontJSONChars;
+      }
+      

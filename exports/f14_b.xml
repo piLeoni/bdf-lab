@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<font>
+  <info face="f14_b" size="14" bold="0" italic="0" charset="ISO10646" unicode="0" stretchH="100" smooth="1" aa="1" padding="0,0,0,0" spacing="1,1"/>
+  <common lineHeight="14" base="12" scaleW="512" scaleH="512" pages="1" packed="0"/>
+  <pages>
+    <page id="0" file="f14_b.png"/>
+  </pages>
+  <chars count="1">
+    <char id="92" x="0" y="0" width="14" height="14" xoffset="0" yoffset="-2" xadvance="14" page="0" chnl="0" letter="\"/>
+  </chars>
+</font>

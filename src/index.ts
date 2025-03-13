@@ -1,4 +1,6 @@
 export { BDFParser } from "./BDFParser"
+export { BDFToBitmap } from "./BDFToBitmap"
+
 export {
     BDFCharacter,
     BDFFile,
@@ -9,3 +11,6 @@ export {
     BDFMetadataKeys,
     BDFPropertiesKeys
 } from "./types"
+
+
+

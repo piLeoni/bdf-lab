@@ -2,7 +2,8 @@ import {
     BDFFile,
     BDFProperties,
     BDFMetadata,
-    BDFCharacter
+    BDFCharacter,
+    SchemaDefinition
 } from "./types";
 
 function isHexadecimal(input: string): boolean {
@@ -89,14 +90,14 @@ export class BDFParser {
                 throw new Error(`${key} is supposed to contain no more than ${schema[key].maxItems} values but has ${rest.length}`);
             }
             if (schema[key].type === "array") {
-                (target as any)[key] = [];
+                target[key] = [];
                 rest.forEach((entry, i) => {
-                    if (schema[key].items[i].type === "number") (target as any)[key].push(parseFloat(entry));
-                    if (schema[key].items[i].type === "string") (target as any)[key].push(entry.replace(/["\r]/g, ''));
+                    if (schema[key].items[i].type === "number") target[key].push(parseFloat(entry));
+                    if (schema[key].items[i].type === "string")target[key].push(entry.replace(/["\r]/g, ''));
                 });
             } else {
-                if (schema[key].type === "number") (target as any)[key] = parseFloat(value);
-                if (schema[key].type === "string") (target as any)[key] = value.replace(/["\r]/g, '');
+                if (schema[key].type === "number") target[key] = parseFloat(value);
+                if (schema[key].type === "string") target[key] = value.replace(/["\r]/g, '');
             }
         }
     };
